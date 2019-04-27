@@ -1,0 +1,29 @@
+{
+  "name": "transferz-desktop",
+  "version": "1.0.0",
+  "description": "Desktop client for transferZ mobile app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/transferZ-desktop"
+  },
+  "keywords": [
+    "file",
+    "transfer",
+    "dektop",
+    "client",
+    "elctron",
+    "express",
+    "flutter"
+  ],
+  "author": "Anjan Roy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.0",
+    "express": "^4.16.4"
+  }
+}

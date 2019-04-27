@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #containerDiv, #leftChildDiv, #rightChildDiv {
+    height: 100%;
+}
+
+#containerDiv {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right, #9EE388, #35CFF3);
+}
+
+#leftChildDiv {
+    flex: 0 0 50%;
+    position: relative;
+}
+
+#rightChildDiv {
+    flex: 1;
+    position: relative;
+}
+
+#sendButton {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: cyan;
+    border-width: 0;
+    border-radius: 47%;
+    width: 40%;
+    height: 15%;
+    padding: 5px;
+    outline: none;
+    cursor: grab;
+    transform: translate(-50%, -50%);
+}
+
+#receiveButton {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: teal;
+    border-width: 0;
+    border-radius: 47%;
+    width: 40%;
+    height: 15%;
+    outline: none;
+    cursor: grab;
+    transform: translate(-50%, -50%);
+}
